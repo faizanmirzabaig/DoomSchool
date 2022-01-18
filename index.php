@@ -43,7 +43,7 @@
 
         #meet-team::before {
             content: '';
-            background: url(img/slider/1.jpg) ;
+            background: url(img/slider/1.jpg);
             /* repeat-y center center/cover; */
             background-size: cover;
             background-repeat: no-repeat;
@@ -277,12 +277,11 @@
         <div class="container containerwidths">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="heading animated wow fadeInDown" style="font-family: 'Dosis';
-    font-weight: 900; color: yellow; line-height: normal;">ADMISSIONS OPEN </h3>
+                    <h3 class="heading  animated wow fadeInDown" >ADMISSIONS OPEN </h3>
                     <h3 class="heading__sub animated wow fadeInDown" style="font-family: 'Dosis';
-    font-weight: 900; color: yellow; ">2022-23</h3>
-                    <h4 class="heading__sub3 animated wow fadeInDown"  >For</h4>
-                    <h3 class="heading__sub4 animated wow fadeInDown" style=" ">CBSE Day Boarding School Pre Nursery to Grade VIII</h3>
+    font-weight: 900; color: #fff; ">2022-23</h3>
+                    <h4 class="heading__sub3 animated wow fadeInDown">For</h4>
+                    <h3 class="heading__sub4 animated wow fadeInDown" >PRE NURSERY TO GRADE &#x2167;</h3>
 
                 </div>
                 <div class="col-md-12">
@@ -318,10 +317,10 @@
                         <div class="col-md-2 col__2">
                             <input type="text" name="city" id="city" placeholder="city" class="innerbox2" required>
                         </div>
-                        
+
                         <div class="row">
                             <div class="col-md-12">
-                            <input type="submit" value="Submit" class="btnss">
+                                <input type="submit" value="Submit" class="btnss">
                             </div>
                         </div>
                     </form>
@@ -329,6 +328,9 @@
             </div>
         </div>
     </div>
+
+
+
 
     <section class="group-ccol" id="faculties">
         <div class="container">
@@ -582,191 +584,204 @@
 
     <!--/#requeres-->
     <section>
-<div id="meet-team">
-   
-        <div class="container meet_team_container" >
-            <div class="section-header">
-                <h2 class="white section-title text-center animated wow fadeInDown">Our Facilities</h2>
-            </div>
-            <div id="myCarousel1" class="carousel slide">
-                <!-- Carousel items -->
-                <div class="carousel-inner animated wow slideInDown">
+        <div id="meet-team">
 
-                    <div class="item active">
-
-                        <div class="col-sm-9 col-md-6">
-                            <div class="team-member ">
-                                <div class="team-img">
-                                    <img class="img-responsive1" src="img/doon-1-min.jpg" alt="" style="height: 361px;">
-                                </div>
-                                <div class="team-info">
-                                    <h5>MODERN SCHOOL BUILDING</h5>
-
-                                </div>
-                                <!--<p>An ultra modern school building with plush interiors, a well stocked air conditioned library give our school the cutting edge advantage in terms of infra structure.-->
-                                <!--    <a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
-                                <!--</p>-->
-
-                            </div>
-                        </div>
-
-                        <div class="col-sm-9 col-md-6">
-                            <div class="team-member ">
-                                <div class="team-img">
-                                    <img class="img-responsive1" src="img/bus.jpeg" alt="" style="height: 361px;">
-                                </div>
-                                <div class="team-info">
-                                    <h5>TRANSPORT FACILITY</h5>
-
-                                </div>
-                                <!--<p>The school also provides transport facilities to the children in modern buses equipped with GPRS, Mobile Phones and First Aid Kits.-->
-
-                                <!--    <br><a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
-                                <!--</p>-->
-
-                            </div>
-                        </div>
-
-
-
-
-
-                    </div>
-                    <!--/item-->
-
-
-
-                    <div class="item ">
-
-                        <div class="col-sm-9 col-md-6">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img class="img-responsive1" src="img/slider/3.jpg" alt="">
-                                </div>
-                                <div class="team-info">
-                                    <h5>SPORTING FACILITIES</h5>
-
-                                </div>
-                                <!--<p>-->
-                                <!--    Sporting facilities include a large playground, a shooting range, a fully equipped gymnasium, basketball court, tennis court, volleyball court, cricket pitches and a skating rink.-->
-
-                                <!--    <a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
-                                <!--</p>-->
-
-                            </div>
-                        </div>
-
-                        <div class="col-sm-9 col-md-6">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img class="img-responsive1" src="img/slider/4.jpg" alt="">
-                                </div>
-                                <div class="team-info">
-                                    <h5>PLAYGROUND FACILITIES</h5>
-
-                                </div>
-                                <!--<p>Our garden campus is imaginative and includes safe play areas for the young pupils and a number of presentation within each phase of the school. -->
-
-                                <!--    <a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
-                                <!--</p>-->
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="col-sm-9 col-md-6">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img class="img-responsive1" src="img/medic.jpeg" alt="" style="height: 361px;">
-                                </div>
-                                <div class="team-info">
-                                    <h5>MEDICAL FACILITIES CENTRE</h5>
-
-                                </div>
-                                <!--                                <p>-->
-                                <!--                                    An in house clinic -->
-                                <!--under the supervision of a trained nurse and doctor provides preventive and emergency medical care to the children. -->
-
-                                <!--                                    <br><a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
-                                <!--                                </p>-->
-
-                            </div>
-                        </div>
-
-                        <div class="col-sm-9 col-md-6">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img class="img-responsive1" src="img/robotics.jpeg" alt="" style="height: 361px;">
-                                </div>
-                                <div class="team-info">
-                                    <h5>ROBOTICS</h5>
-
-                                </div>
-                                <!--                                <p>-->
-                                <!--                                    An in house clinic -->
-                                <!--under the supervision of a trained nurse and doctor provides preventive and emergency medical care to the children. -->
-
-                                <!--                                    <br><a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
-                                <!--                                </p>-->
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="col-sm-9 col-md-6">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img class="img-responsive1" src="img/shooting.jpeg" alt="" style="height: 361px;">
-                                </div>
-                                <div class="team-info">
-                                    <h5>SHOOTING</h5>
-
-                                </div>
-                                <!--                                <p>-->
-                                <!--                                    An in house clinic -->
-                                <!--under the supervision of a trained nurse and doctor provides preventive and emergency medical care to the children. -->
-
-                                <!--                                    <br><a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
-                                <!--                                </p>-->
-
-                            </div>
-                        </div>
-
-                        <div class="col-sm-9 col-md-6">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img class="img-responsive1" src="img/skate.jpeg" alt="" style="height: 361px;">
-                                </div>
-                                <div class="team-info">
-                                    <h5>SKATING</h5>
-
-                                </div>
-                                <!--                                <p>-->
-                                <!--                                    An in house clinic -->
-                                <!--under the supervision of a trained nurse and doctor provides preventive and emergency medical care to the children. -->
-
-                                <!--                                    <br><a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
-                                <!--                                </p>-->
-
-                            </div>
-                        </div>
-                    </div>
-
-
+            <div class="container meet_team_container">
+                <div class="section-header">
+                    <h2 class="white section-title text-center animated wow fadeInDown">Our Facilities</h2>
                 </div>
-                <!--/carousel-inner-->
-                <div class="col-sm-offset-6 mt20">
-                    <a class="left btn btn-primary btn-sm " href="#myCarousel1" data-slide="prev">‹</a>
-                    <a class="right btn btn-primary btn-sm" href="#myCarousel1" data-slide="next">›</a>
+                <div id="myCarousel1" class="carousel slide">
+                    <!-- Carousel items -->
+                    <div class="carousel-inner animated wow slideInDown">
+
+                        <div class="item active">
+
+                            <div class="col-sm-9 col-md-4">
+                                <div class="team-member ">
+                                    <div class="team-img">
+                                        <img class="img-responsive1" src="img/doon-1-min.jpg" alt="" style="height: 361px;">
+                                    </div>
+                                    <div class="team-info">
+                                        <h5>MODERN SCHOOL BUILDING</h5>
+
+                                    </div>
+                                    <!--<p>An ultra modern school building with plush interiors, a well stocked air conditioned library give our school the cutting edge advantage in terms of infra structure.-->
+                                    <!--    <a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
+                                    <!--</p>-->
+
+                                </div>
+                            </div>
+
+                            <div class="col-sm-9 col-md-4">
+                                <div class="team-member ">
+                                    <div class="team-img">
+                                        <img class="img-responsive1" src="img/bus.jpeg" alt="" style="height: 361px;">
+                                    </div>
+                                    <div class="team-info">
+                                        <h5>TRANSPORT FACILITY</h5>
+
+                                    </div>
+                                    <!--<p>The school also provides transport facilities to the children in modern buses equipped with GPRS, Mobile Phones and First Aid Kits.-->
+
+                                    <!--    <br><a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
+                                    <!--</p>-->
+
+                                </div>
+                            </div>
+
+                            <div class="col-sm-9 col-md-4">
+                                <div class="team-member">
+                                    <div class="team-img">
+                                        <img class="img-responsive1" src="img/medicnew.jpg" alt="">
+                                    </div>
+                                    <div class="team-info">
+                                        <h5>SPORTING FACILITIES</h5>
+
+                                    </div>
+                              
+
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                        <!--/item-->
+
+
+
+                        <div class="item ">
+
+                            <div class="col-sm-9 col-md-6">
+                                <div class="team-member">
+                                    <div class="team-img">
+                                        <img class="img-responsive1" src="img/medicnew.jpg" alt="">
+                                    </div>
+                                    <div class="team-info">
+                                        <h5>SPORTING FACILITIES</h5>
+
+                                    </div>
+                                    <!--<p>-->
+                                    <!--    Sporting facilities include a large playground, a shooting range, a fully equipped gymnasium, basketball court, tennis court, volleyball court, cricket pitches and a skating rink.-->
+
+                                    <!--    <a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
+                                    <!--</p>-->
+
+                                </div>
+                            </div>
+
+                            <div class="col-sm-9 col-md-6">
+                                <div class="team-member">
+                                    <div class="team-img">
+                                        <img class="img-responsive1" src="img/slider/4.jpg" alt="">
+                                    </div>
+                                    <div class="team-info">
+                                        <h5>PLAYGROUND FACILITIES</h5>
+
+                                    </div>
+                                    <!--<p>Our garden campus is imaginative and includes safe play areas for the young pupils and a number of presentation within each phase of the school. -->
+
+                                    <!--    <a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
+                                    <!--</p>-->
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="col-sm-9 col-md-6">
+                                <div class="team-member">
+                                    <div class="team-img">
+                                        <img class="img-responsive1" src="img/medic.jpeg" alt="" style="height: 361px;">
+                                    </div>
+                                    <div class="team-info">
+                                        <h5>MEDICAL FACILITIES CENTRE</h5>
+
+                                    </div>
+                                    <!--                                <p>-->
+                                    <!--                                    An in house clinic -->
+                                    <!--under the supervision of a trained nurse and doctor provides preventive and emergency medical care to the children. -->
+
+                                    <!--                                    <br><a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
+                                    <!--                                </p>-->
+
+                                </div>
+                            </div>
+
+                            <div class="col-sm-9 col-md-6">
+                                <div class="team-member">
+                                    <div class="team-img">
+                                        <img class="img-responsive1" src="img/robotics.jpeg" alt="" style="height: 361px;">
+                                    </div>
+                                    <div class="team-info">
+                                        <h5>ROBOTICS</h5>
+
+                                    </div>
+                                    <!--                                <p>-->
+                                    <!--                                    An in house clinic -->
+                                    <!--under the supervision of a trained nurse and doctor provides preventive and emergency medical care to the children. -->
+
+                                    <!--                                    <br><a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
+                                    <!--                                </p>-->
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="col-sm-9 col-md-6">
+                                <div class="team-member">
+                                    <div class="team-img">
+                                        <img class="img-responsive1" src="img/shooting.jpeg" alt="" style="height: 361px;">
+                                    </div>
+                                    <div class="team-info">
+                                        <h5>SHOOTING</h5>
+
+                                    </div>
+                                    <!--                                <p>-->
+                                    <!--                                    An in house clinic -->
+                                    <!--under the supervision of a trained nurse and doctor provides preventive and emergency medical care to the children. -->
+
+                                    <!--                                    <br><a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
+                                    <!--                                </p>-->
+
+                                </div>
+                            </div>
+
+                            <div class="col-sm-9 col-md-6">
+                                <div class="team-member">
+                                    <div class="team-img">
+                                        <img class="img-responsive1" src="img/skate.jpeg" alt="" style="height: 361px;">
+                                    </div>
+                                    <div class="team-info">
+                                        <h5>SKATING</h5>
+
+                                    </div>
+                                    <!--                                <p>-->
+                                    <!--                                    An in house clinic -->
+                                    <!--under the supervision of a trained nurse and doctor provides preventive and emergency medical care to the children. -->
+
+                                    <!--                                    <br><a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
+                                    <!--                                </p>-->
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!--/carousel-inner-->
+                    <div class="col-sm-offset-6 mt20">
+                        <a class="left btn btn-primary btn-sm " href="#myCarousel1" data-slide="prev">‹</a>
+                        <a class="right btn btn-primary btn-sm" href="#myCarousel1" data-slide="next">›</a>
+                    </div>
+                    <!--/myCarousel-->
                 </div>
-                <!--/myCarousel-->
             </div>
+            <!--<div class="divider"></div>-->
         </div>
-        <!--<div class="divider"></div>-->
-    </div>
-</section>
+    </section>
     <!--Whatsapp & Call Icon-->
     <div style="position:fixed; top:79%; right:20px; z-index:20000">
         <a href="https://wa.me/919004960057"><img src="img/whatsapp (1).png" alt="whatsapp" style="width:45px; height:45px; "></a>
@@ -775,11 +790,10 @@
 
     <!--Location-->
     <section class="newyear">
-        <div class="container containerwidths">
+        <div class=" containerwidths">
             <div class="col__row">
-                <div class="col__md__70" >
-                    <!-- <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3425.6407316451982!2d76.7172590151341!3d30.840731481599608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ff150253e1f11%3A0xa04305877c23fcb7!2sDoon%20International%20School%2C%20New%20Chandigarh!5e0!3m2!1sen!2sin!4v1608202491745!5m2!1sen!2sin"  frameborder="0" allowfullscreen="allowfullscreen" aria-hidden="false"></iframe> -->
-                        <iframe  tabindex="0"  loading="lazy" style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3425.641099343363!2d76.71725911513407!3d30.840721181599633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ff150253e1f11%3A0xa04305877c23fcb7!2sDoon%20International%20School%2C%20New%20Chandigarh%20%7C%20Best%20School%20in%20New%20Chandigarh%20%7C%20Best%20cbse%20school%20in%20chandigarh!5e0!3m2!1sen!2sin!4v1642482657948!5m2!1sen!2sin" width="950" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="col__md__70">
+                    <iframe class="iframecol" tabindex="0" loading="lazy" style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3425.641099343363!2d76.71725911513407!3d30.840721181599633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ff150253e1f11%3A0xa04305877c23fcb7!2sDoon%20International%20School%2C%20New%20Chandigarh%20%7C%20Best%20School%20in%20New%20Chandigarh%20%7C%20Best%20cbse%20school%20in%20chandigarh!5e0!3m2!1sen!2sin!4v1642482657948!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
                 <div class="col__md__30">
                     <ul>
@@ -941,7 +955,8 @@
     <!--Popup modal-->
 
     <!--Popup modal end-->
-    </section></body>
+    </section>
+</body>
 <script>
     // $(document).ready(function(){
     //     $("#exampleModal").modal();
