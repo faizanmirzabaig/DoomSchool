@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: 'bebas';
   font-style: normal;
@@ -272,9 +276,14 @@ h1:after {
   background-color: #122259;
   /* Dark Blue */
   color: #ffffff;
-  padding-bottom: 50px!important;
-  padding-top: 20px!important;
+  padding-bottom: 100px!important;
+  padding-top: 100px!important;
   border-bottom: 14px solid #00aeef;
+
+}
+#faculties{
+  padding-top: 115px;
+  padding-bottom: 100px;
 
 }
 
@@ -468,8 +477,7 @@ h1:after {
   position: relative;
   padding-bottom: 20px;
   margin: 0 0 20px;
-  font-weight: 600;
-  font-family: helvetica_bold;
+  font-family: Dosis;
 }
 
 .section-header .section-title:before {
@@ -514,7 +522,12 @@ h1:after {
 }
 
 #meet-team {
-  padding: 50px 0;
+  position: relative;
+  
+}
+.meet_team_container{
+  padding-top: 100px;
+  padding-bottom: 100px; 
 }
 #myCarousel{
   margin-top: 118px;
@@ -602,7 +615,9 @@ h1:after {
 }
 
 #features {
-  padding: 50px 0;
+padding-top: 140px;
+padding-bottom: 112px;
+
 }
 
 #features .media.service-box:first-child {
@@ -615,10 +630,9 @@ h1:after {
   text-transform: uppercase !important;
   /* border-bottom: 1px solid #eee; */
   margin-bottom: 15px;
-  position: relative;
   font-size: 20px;
-  font-weight: 600;
-  font-family: helvetica_bold;
+  font-weight: 900;
+  font-family: Dosis;
 }
 
 .column-title:after {
@@ -704,7 +718,9 @@ ul.nostyle i {
 }
 
 .newyear {
-  background: #df9926;
+  background: #122259;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .newyear h3 {
@@ -725,7 +741,7 @@ ul.nostyle i {
   line-height: 30px;
   font-family: 'Dosis', sans-serif;
   /*font-style: italic;*/
-  color: #555;
+  color: #fff;
   font-weight: bold;
   list-style: none;
   margin-bottom: 15px;
@@ -758,6 +774,32 @@ ul.nostyle i {
 
 .mt20 {
   margin-top: 20px !important;
+}
+.col__md__30{
+  -webkit-box-flex: 0;
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+    max-width: 30%;
+
+}
+.col__md__70{
+  -webkit-box-flex: 0;
+    -ms-flex: 0 0 70%;
+    flex: 0 0 70%;
+    max-width: 70%;
+}
+.col__row{
+  display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.iframecol{
+  width: 93%;
+    height: 98%;
 }
 
 .group-ccol {
@@ -880,4 +922,9 @@ ul.nostyle i {
   font-size: 20px;
   font-weight: normal;
   font-family: 'Roboto', sans-serif;
+}
+@media(max-width:1200px){
+  .col__2 {
+    width: 100%;
+}
 }

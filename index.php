@@ -43,13 +43,18 @@
 
         #meet-team::before {
             content: '';
-            background: url(img/slider/1.jpg) repeat-y center center/cover;
+            background: url(img/slider/1.jpg) ;
+            /* repeat-y center center/cover; */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
             width: 100%;
-            height: 89%;
+            height: 100vh;
             position: absolute;
             left: 0px;
             z-index: -1;
             filter: brightness(0.3);
+            padding-top: 100px;
         }
 
 
@@ -100,16 +105,16 @@
                             <input type="checkbox" id="show-services">
 
                         </li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Facilities</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="#enquirenow">About Us</a></li>
+                        <li><a href="#faculties">Facilities</a></li>
                         <li class="logohide"><img src="img/DIS_CHD_Logo.png" /></li>
 
 
 
 
-                        <li><a href="#">Why Choose Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#features">Why Choose Us</a></li>
+                        <li><a href="#enquirenow">Contact Us</a></li>
 
 
 
@@ -325,7 +330,7 @@
         </div>
     </div>
 
-    <section class="group-ccol">
+    <section class="group-ccol" id="faculties">
         <div class="container">
             <div class="row">
                 <div class="ccol">
@@ -576,9 +581,10 @@
 
 
     <!--/#requeres-->
-
-    <section id="meet-team" style="">
-        <div class="container" style="margin-top: 20px;">
+    <section>
+<div id="meet-team">
+   
+        <div class="container meet_team_container" >
             <div class="section-header">
                 <h2 class="white section-title text-center animated wow fadeInDown">Our Facilities</h2>
             </div>
@@ -759,7 +765,8 @@
             </div>
         </div>
         <!--<div class="divider"></div>-->
-    </section>
+    </div>
+</section>
     <!--Whatsapp & Call Icon-->
     <div style="position:fixed; top:79%; right:20px; z-index:20000">
         <a href="https://wa.me/919004960057"><img src="img/whatsapp (1).png" alt="whatsapp" style="width:45px; height:45px; "></a>
@@ -768,13 +775,13 @@
 
     <!--Location-->
     <section class="newyear">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6" style="overflow:auto">
-                    <iframe loading="lazy" style="border: 0;" tabindex="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3425.6407316451982!2d76.7172590151341!3d30.840731481599608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ff150253e1f11%3A0xa04305877c23fcb7!2sDoon%20International%20School%2C%20New%20Chandigarh!5e0!3m2!1sen!2sin!4v1608202491745!5m2!1sen!2sin" width="600" height="450" frameborder="0" allowfullscreen="allowfullscreen" aria-hidden="false"></iframe>
-
+        <div class="container containerwidths">
+            <div class="col__row">
+                <div class="col__md__70" >
+                    <!-- <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3425.6407316451982!2d76.7172590151341!3d30.840731481599608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ff150253e1f11%3A0xa04305877c23fcb7!2sDoon%20International%20School%2C%20New%20Chandigarh!5e0!3m2!1sen!2sin!4v1608202491745!5m2!1sen!2sin"  frameborder="0" allowfullscreen="allowfullscreen" aria-hidden="false"></iframe> -->
+                        <iframe  tabindex="0"  loading="lazy" style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3425.641099343363!2d76.71725911513407!3d30.840721181599633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ff150253e1f11%3A0xa04305877c23fcb7!2sDoon%20International%20School%2C%20New%20Chandigarh%20%7C%20Best%20School%20in%20New%20Chandigarh%20%7C%20Best%20cbse%20school%20in%20chandigarh!5e0!3m2!1sen!2sin!4v1642482657948!5m2!1sen!2sin" width="950" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
-                <div class="col-md-6">
+                <div class="col__md__30">
                     <ul>
                         <li>Location:<br>
                             ECO CITY, PHASE 2,
@@ -934,7 +941,7 @@
     <!--Popup modal-->
 
     <!--Popup modal end-->
-</body>
+    </section></body>
 <script>
     // $(document).ready(function(){
     //     $("#exampleModal").modal();
