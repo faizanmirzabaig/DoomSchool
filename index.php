@@ -26,6 +26,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/testimonials.css">
+
+
 
 
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css"/>-->
@@ -214,6 +218,7 @@
         $city = $_POST['city'];
         $email = $_POST['email'];
 
+        // die($city);
         $message = $_POST['course'];
 
         $text = "<br>
@@ -231,8 +236,8 @@
         // $headers .= "From: <$name>" . "\r\n";
 
         if (mail($email_to, "Contact us Mail From  Doon International School 2022-23", $text, $headers)) {
-
             $curl = curl_init();
+            
             curl_setopt_array($curl, array(
                 CURLOPT_RETURNTRANSFER => 1,
                 CURLOPT_URL => 'http://sanjarcrm.com/api/leads/submit',
@@ -241,11 +246,12 @@
                     'name' => $name,
                     'email' => $email,
                     'contact' => $contact,
-                    'location' => $location,
+                    'location' => $city,
                     'message' => $message,
                     'table_alias' => 'dischandigarh_in_',
                     'api_key' => '41b528d8fcc1e3428e17526a14ee7b8a'
                 )
+
             ));
             // Send the request & save response to $resp
             $resp = curl_exec($curl);
@@ -277,11 +283,11 @@
         <div class="container containerwidths">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="heading  animated wow fadeInDown" >ADMISSIONS OPEN </h3>
+                    <h3 class="heading  animated wow fadeInDown">ADMISSIONS OPEN </h3>
                     <h3 class="heading__sub animated wow fadeInDown" style="font-family: 'Dosis';
     font-weight: 900; color: #fff; ">2022-23</h3>
                     <h4 class="heading__sub3 animated wow fadeInDown">For</h4>
-                    <h3 class="heading__sub4 animated wow fadeInDown" >PRE NURSERY TO GRADE &#x2167;</h3>
+                    <h3 class="heading__sub4 animated wow fadeInDown">PRE NURSERY TO GRADE &#x2167;</h3>
 
                 </div>
                 <div class="col-md-12">
@@ -297,7 +303,7 @@
                         </div>
                         <div class="col-md-2 col__2">
                             <select class="innerbox2-select" id="course" name="course" required aria-required="true">
-                                <option value="">Select Course </option>
+                                <option value="">Select Class </option>
                                 <option value="Pre-Nursery">Pre-Nursery</option>
                                 <option value="Nursery">Nursery</option>
                                 <option value="KG">KG</option>
@@ -410,7 +416,7 @@
 
     <!--Popup section end-->
 
-    <section id="features" style="background: #F9FAFA;">
+    <!-- <section id="features" style="background: #F9FAFA;">
         <div class="container">
 
             <div class="row">
@@ -524,75 +530,17 @@
                             <i class="fa fa-check-square"></i> We help students to recognize their full potential so that they can make their best contribution to the society.
                         </li>
 
-                        <!--<li class="list-group-item">-->
-                        <!--    <i class="fa fa-check-square"></i> Industry-savvy academic staff-->
-                        <!--</li>-->
-
-                        <!--<li class="list-group-item">-->
-                        <!--    <i class="fa fa-check-square"></i> Well regarded, innovative research programs-->
-                        <!--</li>-->
-
-                        <!--<li class="list-group-item">-->
-                        <!--    <i class="fa fa-check-square"></i> Global knowledge network-->
-                        <!--</li>-->
-
-                        <!--<li class="list-group-item">-->
-                        <!--    <i class="fa fa-check-square"></i> Amalgamation of Business Ethics into curriculum-->
-                        <!--</li>-->
+                    
 
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-    <!--Why APG University-->
+     -->
 
-
-    <!--<section id="testimonial">-->
-    <!--    <div class="container">-->
-    <!--        <div class="section-header">-->
-    <!--            <h2 class="section-title text-center animated wow fadeInDown" style="color:#fff">OUR RECRUITERS </h2>-->
-    <!-- <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>-->
-    <!--        </div>-->
-
-    <!--        <div class="row">-->
-    <!--            <marquee>-->
-
-    <!--                <img class="img-responsive img-thumbnail" src="img/recuters/angel-broking.jpg" alt="">-->
-    <!--                <img class="img-responsive img-thumbnail" src="img/recuters/google.jpg" alt="">-->
-    <!--                <img class="img-responsive img-thumbnail" src="img/recuters/jcbl.jpg" alt="">-->
-    <!--                <img class="img-responsive img-thumbnail" src="img/recuters/marriott.jpg" alt="">-->
-    <!--                <img class="img-responsive img-thumbnail" src="img/recuters/net-connect.jpg" alt="">-->
-    <!--                <img class="img-responsive img-thumbnail" src="img/recuters/oberoi-hotel.jpg" alt="">-->
-    <!--                <img class="img-responsive img-thumbnail" src="img/recuters/orange-trip.jpg" alt="">-->
-    <!--                <img class="img-responsive img-thumbnail" src="img/recuters/radisson-hotel.jpg" alt="">-->
-    <!--                <img class="img-responsive img-thumbnail" src="img/recuters/StriderInfotech.png" alt="">-->
-    <!--                <img class="img-responsive img-thumbnail" src="img/recuters/taj-hotel.jpg" alt="">-->
-    <!--                <img class="img-responsive img-thumbnail" src="img/recuters/tommy-hilfier.jpg" alt="">-->
-    <!--                <img class="img-responsive img-thumbnail" src="img/recuters/Videocon.png" alt="">-->
-
-    <!--            </marquee>-->
-
-
-
-
-
-    <!--        </div>-->
-    <!--    </div>-->
-    <!--</section>-->
-
-
-    <!--/#requeres-->
-    <section>
-        <div id="meet-team">
-
-            <div class="container meet_team_container">
-                <div class="section-header">
-                    <h2 class="white section-title text-center animated wow fadeInDown">Our Facilities</h2>
-                </div>
-                <div id="myCarousel1" class="carousel slide">
-                    <!-- Carousel items -->
-                    <div class="carousel-inner animated wow slideInDown">
+    <!-- Carousel items -->
+    <!-- <div class="carousel-inner animated wow slideInDown">
 
                         <div class="item active">
 
@@ -605,10 +553,7 @@
                                         <h5>MODERN SCHOOL BUILDING</h5>
 
                                     </div>
-                                    <!--<p>An ultra modern school building with plush interiors, a well stocked air conditioned library give our school the cutting edge advantage in terms of infra structure.-->
-                                    <!--    <a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
-                                    <!--</p>-->
-
+                                   
                                 </div>
                             </div>
 
@@ -621,11 +566,7 @@
                                         <h5>TRANSPORT FACILITY</h5>
 
                                     </div>
-                                    <!--<p>The school also provides transport facilities to the children in modern buses equipped with GPRS, Mobile Phones and First Aid Kits.-->
-
-                                    <!--    <br><a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
-                                    <!--</p>-->
-
+                                   
                                 </div>
                             </div>
 
@@ -638,7 +579,7 @@
                                         <h5>SPORTING FACILITIES</h5>
 
                                     </div>
-                              
+
 
                                 </div>
                             </div>
@@ -647,7 +588,6 @@
 
 
                         </div>
-                        <!--/item-->
 
 
 
@@ -662,12 +602,7 @@
                                         <h5>SPORTING FACILITIES</h5>
 
                                     </div>
-                                    <!--<p>-->
-                                    <!--    Sporting facilities include a large playground, a shooting range, a fully equipped gymnasium, basketball court, tennis court, volleyball court, cricket pitches and a skating rink.-->
-
-                                    <!--    <a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
-                                    <!--</p>-->
-
+                                 
                                 </div>
                             </div>
 
@@ -680,11 +615,7 @@
                                         <h5>PLAYGROUND FACILITIES</h5>
 
                                     </div>
-                                    <!--<p>Our garden campus is imaginative and includes safe play areas for the young pupils and a number of presentation within each phase of the school. -->
-
-                                    <!--    <a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
-                                    <!--</p>-->
-
+                                  
                                 </div>
                             </div>
                         </div>
@@ -699,13 +630,7 @@
                                         <h5>MEDICAL FACILITIES CENTRE</h5>
 
                                     </div>
-                                    <!--                                <p>-->
-                                    <!--                                    An in house clinic -->
-                                    <!--under the supervision of a trained nurse and doctor provides preventive and emergency medical care to the children. -->
-
-                                    <!--                                    <br><a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
-                                    <!--                                </p>-->
-
+                                 
                                 </div>
                             </div>
 
@@ -718,12 +643,6 @@
                                         <h5>ROBOTICS</h5>
 
                                     </div>
-                                    <!--                                <p>-->
-                                    <!--                                    An in house clinic -->
-                                    <!--under the supervision of a trained nurse and doctor provides preventive and emergency medical care to the children. -->
-
-                                    <!--                                    <br><a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
-                                    <!--                                </p>-->
 
                                 </div>
                             </div>
@@ -739,12 +658,6 @@
                                         <h5>SHOOTING</h5>
 
                                     </div>
-                                    <!--                                <p>-->
-                                    <!--                                    An in house clinic -->
-                                    <!--under the supervision of a trained nurse and doctor provides preventive and emergency medical care to the children. -->
-
-                                    <!--                                    <br><a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
-                                    <!--                                </p>-->
 
                                 </div>
                             </div>
@@ -758,30 +671,246 @@
                                         <h5>SKATING</h5>
 
                                     </div>
-                                    <!--                                <p>-->
-                                    <!--                                    An in house clinic -->
-                                    <!--under the supervision of a trained nurse and doctor provides preventive and emergency medical care to the children. -->
-
-                                    <!--                                    <br><a href="#enquirenow" class="label label-info">ENQUIRE NOW</a>-->
-                                    <!--                                </p>-->
-
+                                 
                                 </div>
                             </div>
                         </div>
 
 
                     </div>
-                    <!--/carousel-inner-->
                     <div class="col-sm-offset-6 mt20">
                         <a class="left btn btn-primary btn-sm " href="#myCarousel1" data-slide="prev">‹</a>
                         <a class="right btn btn-primary btn-sm" href="#myCarousel1" data-slide="next">›</a>
                     </div>
-                    <!--/myCarousel-->
                 </div>
             </div>
-            <!--<div class="divider"></div>-->
         </div>
+    </section> -->
+
+
+
+    <!--  START TESTIMONIAL LAYOUT 02 -->
+
+    <section class="section-content-block section-testimonial-bg">
+
+        <div class="container_changed">
+
+            <div class="row section-heading-wrapper-alt">
+
+                <div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 text-center">
+                    <div class="section-header">
+                        <h2 class="white section-title text-center animated wow fadeInDown">Our Facilities</h2>
+                    </div>
+
+                </div> <!-- end .col-sm-12  -->
+
+            </div>
+
+            <div class="row ">
+                <div class="testimonial-container owl-carousel">
+
+                    <div class="col__lg__12 item">
+                        <div class="team-member ">
+                            <div>
+                                <img src="img/facilities/2.jpg" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h5>PLAYGROUND</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col__lg__12 item">
+
+                        <div class="team-member">
+                            <div>
+                                <img src="img/facilities/medicnew.jpg" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h5>MEDICAL FACILITIES CENTRE</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col__lg__12 item">
+                        <div class="team-member">
+                            <div>
+                                <img src="img/facilities/roboticsnew.jpg" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h5>ROBOTICS</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col__lg__12 item">
+                        <div class="team-member">
+                            <div>
+                                <img src="img/facilities/4.jpg" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h5>IT LAB</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col__lg__12 item">
+                        <div class="team-member">
+                            <div>
+                                <img src="img/facilities/skatenew.jpg" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h5>SKATING</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col__lg__12 item">
+                        <div class="team-member">
+                            <div>
+                                <img src="img/facilities/shootingnew.jpg" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h5>Shooting Range</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col__lg__12 item">
+                        <div class="team-member">
+                            <div>
+                                <img src="img/facilities/1.jpg" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h5> Library</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- end row  -->
+
+                </div>
+            </div> <!-- end row  -->
+
+
+            <div class="row ">
+                <div class="testimonial-container owl-carousel">
+
+                    <div class="col__lg__12 item">
+                        <div class="team-member ">
+                            <div>
+                                <img src="img/facilities/basket.jpg" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h5>BASKETBALL COURT</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col__lg__12 item">
+
+                        <div class="team-member">
+                            <div>
+                                <img src="img/facilities/10.jpg" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h5>BASEBALL COURT</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col__lg__12 item">
+                        <div class="team-member">
+                            <div>
+                                <img src="img/facilities/6.jpg" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h5>STEM LEARNING</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col__lg__12 item">
+                        <div class="team-member">
+                            <div>
+                                <img src="img/facilities/9.jpg" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h5>SWIMMING POOL</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col__lg__12 item">
+                        <div class="team-member">
+                            <div>
+                                <img src="img/facilities/bus.jpg" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h5>TRANSPORT FACILITY</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col__lg__12 item">
+                        <div class="team-member">
+                            <div>
+                                <img src="img/facilities/shootingnew.jpg" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h5>Shooting Range</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col__lg__12 item">
+                        <div class="team-member">
+                            <div>
+                                <img src="img/facilities/bus.jpg" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h5> TRANSPORT FACILITY</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- end row  -->
+
+                </div>
+            </div> <!-- end row  -->
+
+        </div>
+
+
+        </div> <!--  end .container  -->
+
     </section>
+
+    <!--  end .section-testimonial -->
     <!--Whatsapp & Call Icon-->
     <div style="position:fixed; top:79%; right:20px; z-index:20000">
         <a href="https://wa.me/919004960057"><img src="img/whatsapp (1).png" alt="whatsapp" style="width:45px; height:45px; "></a>
@@ -797,7 +926,7 @@
                 </div>
                 <div class="col__md__30">
                     <ul>
-                        <li>Location:<br>
+                        <li>LOCATION:<br>
                             ECO CITY, PHASE 2,
                             SECTOR 11, NEW CHANDIGARH
                             MOHALI (PB.)</li>
@@ -899,7 +1028,7 @@
     </footer>
 
     <!-- Slider JScript -->
-    <script>
+    <!-- <script>
         var slideIndex = 0;
         showSlides();
 
@@ -920,8 +1049,9 @@
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " active";
             setTimeout(showSlides, 3000); // Change image every 2 seconds
-        }
-    </script>
+        } 
+        </script> -->
+
     <!-- End Slider JScript -->
 
     <!-- Is to Top -->
@@ -947,6 +1077,9 @@
     </script>
 
     <!-- End Is to Top -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/owl.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/fontawesome.js"></script>
     <script src="js/custom.js"></script>

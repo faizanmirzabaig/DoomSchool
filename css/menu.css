@@ -19,7 +19,8 @@
   width: 100%;
   top: 0;
   z-index: 99999;
-  padding-top: 29px;
+  padding-top: 44px;
+
 
 }
 .wrapperall nav {
@@ -29,7 +30,7 @@
   margin: 0 auto;
   align-items: center;
   justify-content: space-between;
-  height: 90px;
+  height: 74px;
 
 }
 nav .content {
